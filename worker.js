@@ -70,4 +70,4 @@ export default {
 
     return new Response('Talpot AI Worker OK', { headers: cors });
   }
-};
+}; 
