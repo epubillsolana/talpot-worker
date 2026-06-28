@@ -2,9 +2,9 @@
   "name": "talpot-worker",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "wrangler deploy --no-bundle"
+    "deploy": "wrangler deploy worker.js --name talpot-ai-v2 --compatibility-date 2024-01-01"
   },
   "devDependencies": {
-    "wrangler": "^3.99.0"
+    "wrangler": "3.99.0"
   }
 }
