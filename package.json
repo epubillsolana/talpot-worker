@@ -1,11 +1,10 @@
 {
   "name": "talpot-worker",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy --no-bundle"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.99.0"
   }
 }
