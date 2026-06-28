@@ -1,4 +1,8 @@
+
 name = "talpot-ai-v2"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 account_id = "63438e3591726c7f47cc24259281b3b7"
+
+[build]
+command = ""
